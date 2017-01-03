@@ -1,7 +1,8 @@
 DROP TABLE duplicate_player_stats;
 DROP PROCEDURE fix_duplicate_player_stats;
 CREATE TABLE duplicate_player_stats AS SELECT *
-                                       FROM PLAYERS_TEAMS;
+                                       FROM PLAYERS_TEAMS
+                                       WHERE 1=0; /*FALSE CONDITION IN ORDER TO AVOID COPYING DATA*/
                                       
 
 CREATE OR REPLACE PROCEDURE fix_duplicate_player_stats AS

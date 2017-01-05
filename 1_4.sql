@@ -84,3 +84,7 @@ CREATE OR REPLACE PROCEDURE fix_duplicate_player_stats AS
   END;
 /
 
+BEGIN
+  FIX_DUPLICATE_PLAYER_STATS();
+END;
+/

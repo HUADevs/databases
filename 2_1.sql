@@ -22,11 +22,11 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER) AS
                                                        ))
                                      ))
                        FROM PLAYERS pl
-                         JOIN PLAYERS_TEAMS pl_te ON pl.PLAYERID = pl_te.PLAYERID
+                         JOIN (SELECT * FROM PLAYERS_TEAMS ORDER BY SCORE ASC) pl_te ON pl.PLAYERID = pl_te.PLAYERID
                          JOIN TEAMS t ON pl_te.TEAMID = t.TEAMID AND pl_te.YEAR = t.YEAR
                        WHERE t.YEAR = nbaYear AND t.DIVISION IN ('East', 'West')
                        GROUP BY t.DIVISION
-                       ORDER BY pl_te.SCORE)
+                       )
     )
     INTO RESULT
     FROM dual;

@@ -20,3 +20,8 @@ CREATE PROCEDURE fix_player_metrics AS
     CLOSE mCursor;
   END;
 /
+
+BEGIN
+  FIX_PLAYER_METRICS();
+END;
+/

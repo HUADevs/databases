@@ -1,4 +1,4 @@
-CREATE PROCEDURE fix_team_divisions AS
+CREATE OR REPLACE PROCEDURE fix_team_divisions AS
   divs TEAMS.DIVISION%TYPE;
 
   CURSOR divCursor IS

@@ -4,7 +4,6 @@ CREATE TABLE TEMP_CLOB_TAB (
   xml XMLTYPE
 );
 CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
-  qryctx DBMS_XMLGEN.ctxhandle;
   result XMLTYPE;
   BEGIN
     SELECT XMLELEMENT("nba",

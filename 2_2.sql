@@ -13,7 +13,7 @@ CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
                                                 XMLAGG(XMLELEMENT("player",
                                                                   XMLFOREST(PLAYERID AS "id",
                                                                             YEAR AS "year",
-                                                                            CONFERENCE AS "conference",
+                                                                            CONFERENCE AS "division",
                                                                             POINTS AS "points",
                                                                             MINUTES AS "minutes"
                                                                   ))

@@ -1,5 +1,6 @@
-CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER) AS
-  qryctx DBMS_XMLGEN.ctxhandle;
+DROP PROCEDURE get_top_players_xml;
+
+CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) AS
   result XMLTYPE;
   BEGIN
     SELECT XMLELEMENT("nba", XMLATTRIBUTES ('topplayers' AS "dataset"),
@@ -19,15 +20,17 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER) AS
                                                                                        "teamId",
                                                                                        t.TEAMNAME AS
                                                                                        "name"))
-                                                       ))
+                                                       ) ORDER BY SCORE DESC
+
+                                                )
                                      ))
                        FROM PLAYERS pl
-                         JOIN (SELECT * FROM PLAYERS_TEAMS ORDER BY SCORE ASC) pl_te ON pl.PLAYERID = pl_te.PLAYERID
+                         JOIN PLAYERS_TEAMS pl_te ON pl.PLAYERID = pl_te.PLAYERID
                          JOIN TEAMS t ON pl_te.TEAMID = t.TEAMID AND pl_te.YEAR = t.YEAR
                        WHERE t.YEAR = nbaYear AND t.DIVISION IN ('East', 'West')
                        GROUP BY t.DIVISION
-                       )
-    )
+
+                      ))
     INTO RESULT
     FROM dual;
     /*dbms_output.put_line(result.getClobVal());*/
@@ -43,7 +46,7 @@ DECLARE
 
 BEGIN
   year := 2009;
-  num := 10;
-  get_top_players_xml(year);
+  num := 12;
+  get_top_players_xml(year, num);
 END;
 /

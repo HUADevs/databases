@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT nba (division*)>
+<!ATTLIST nba dataset (allstars|topplayers)>
+<!ELEMENT division (player*)>
+<!ATTLIST division id (East|West)>
+<!ELEMENT player (id,year,conference,points,minutes)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT conference (#PCDATA)>
+<!ELEMENT points (#PCDATA)>
+<!ELEMENT minutes (#PCDATA)>

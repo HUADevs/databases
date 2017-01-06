@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE nba SYSTEM "allstars.dtd">
+<!DOCTYPE nba SYSTEM "ourdtd.dtd">
 <nba dataset="allstars">
   <division id="East">
     <player>

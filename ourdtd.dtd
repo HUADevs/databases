@@ -3,7 +3,7 @@
 <!ATTLIST nba dataset (allstars|topplayers)>
 <!ELEMENT division (player*)>
 <!ATTLIST division id (East|West)>
-<!ELEMENT player (id,year?,conference|division,points,minutes,name?,position?,team?)>
+<!ELEMENT player (id,year?,division,points,minutes,name,position,team,index?)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT conference (#PCDATA)>
@@ -12,5 +12,6 @@
 <!ELEMENT division (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT position (#PCDATA)>
+<!ELEMENT index (#PCDATA)>
 <!ELEMENT team (teamId,name)>
 <!ELEMENT teamId (#PCDATA)>

@@ -1,1 +1,1 @@
-/root/nba[@dataset='topplayers']/division[(@id='East') or (@id='West')]/player[index>='0.7']
+/root/nba[@dataset='topplayers']/division[(@id='East') or (@id='West')]/player[index>'0.7']

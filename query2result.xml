@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <player>
+        <id>jamesle01</id>
+        <name>LeBron James</name>
+        <position>F</position>
+        <points>2258</points>
+        <minutes>2966</minutes>
+        <index>.821</index>
+        <plDivision>East</plDivision>
+        <team>
+            <teamId>CLE</teamId>
+            <teamName>Cleveland Cavaliers</teamName>
+        </team>
+    </player>
+
+    <player>
+        <id>davispa01</id>
+        <name>Paul Davis</name>
+        <position>C</position>
+        <points>5</points>
+        <minutes>8</minutes>
+        <index>.8125</index>
+        <plDivision>East</plDivision>
+        <team>
+            <teamId>WAS</teamId>
+            <teamName>Washington Wizards</teamName>
+        </team>
+    </player>
+
+    <player>
+        <id>gildetr01</id>
+        <name>Trey Gilder</name>
+        <position>F</position>
+        <points>2</points>
+        <minutes>5</minutes>
+        <index>.8</index>
+        <plDivision>West</plDivision>
+        <team>
+            <teamId>MEM</teamId>
+            <teamName>Memphis Grizzlies</teamName>
+        </team>
+    </player>
+
+    <player>
+        <id>duncati01</id>
+        <name>Timothy Duncan</name>
+        <position>C-F</position>
+        <points>1395</points>
+        <minutes>2438</minutes>
+        <index>.7082</index>
+        <plDivision>West</plDivision>
+        <team>
+            <teamId>SAS</teamId>
+            <teamName>San Antonio Spurs</teamName>
+        </team>
+    </player>
+
+</result>

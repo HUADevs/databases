@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+
+<player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+
+</result>

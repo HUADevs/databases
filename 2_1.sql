@@ -128,7 +128,7 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) 
         , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.POINTS))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a minutes node which contains the MINUTES as text
         l_minutes_node := dbms_xmldom.appendChild(l_player_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'minutes'))
         );
@@ -136,7 +136,7 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) 
         , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.MINUTES))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a index node which contains the SCORE as text
         l_index_node := dbms_xmldom.appendChild(l_player_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'index'))
         );
@@ -144,7 +144,7 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) 
         , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.SCORE))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a division node which contains the DIVISION as text
         l_division_node := dbms_xmldom.appendChild(l_player_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'plDivision'))
         );
@@ -152,12 +152,12 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) 
         , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.DIVISION))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a team node which contains the teamId and teamName
         l_team_node := dbms_xmldom.appendChild(l_player_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'team'))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a teamId node which contains the TEAMID as text
         l_teamID_node := dbms_xmldom.appendChild(l_team_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'teamId'))
         );
@@ -165,7 +165,7 @@ CREATE OR REPLACE PROCEDURE get_top_players_xml(nbaYear IN NUMBER, n IN NUMBER) 
         , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.TEAMID))
         );
 
-        -- Each player node will get a points node which contains the POINTS as text
+        -- Each player node will get a teamName node which contains the TEAMNAME as text
         l_teamName_node := dbms_xmldom.appendChild(l_team_node
         , dbms_xmldom.makeNode(dbms_xmldom.createElement(l_domdoc, 'teamName'))
         );

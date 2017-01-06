@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE xml(nbaYear IN NUMBER) AS
+CREATE OR REPLACE PROCEDURE xml(nbaYear IN NUMBER, n IN NUMBER) AS
   l_domdoc            dbms_xmldom.DOMDocument;
   l_xmltype           XMLTYPE;
 
@@ -80,14 +80,13 @@ CREATE OR REPLACE PROCEDURE xml(nbaYear IN NUMBER) AS
                       t.TEAMID,
                       t.TEAMNAME
                     FROM PLAYERS pl
-                      JOIN PLAYERS_TEAMS pl_te ON pl.PLAYERID = pl_te.PLAYERID
+                      JOIN (SELECT * FROM PLAYERS_TEAMS ORDER BY SCORE DESC) pl_te ON pl.PLAYERID = pl_te.PLAYERID
                       JOIN TEAMS t ON pl_te.TEAMID = t.TEAMID AND pl_te.YEAR = t.YEAR
-                    WHERE t.YEAR = nbaYear AND t.DIVISION IN ('East', 'West')
-                    ORDER BY pl_te.SCORE DESC
+                    WHERE t.YEAR = nbaYear AND t.DIVISION=r_div.DIVISION AND ROWNUM<=n
       )
       LOOP
-        IF r_div.DIVISION = r_plr.DIVISION
-        THEN
+        /*IF r_div.DIVISION = r_plr.DIVISION
+        THEN*/
           -- For each record, create a new player element.
           -- and add this new player element to the division node
           l_player_element := dbms_xmldom.createElement(l_domdoc, 'player');
@@ -171,7 +170,7 @@ CREATE OR REPLACE PROCEDURE xml(nbaYear IN NUMBER) AS
           l_teamName_textnode := dbms_xmldom.appendChild(l_teamName_node
           , dbms_xmldom.makeNode(dbms_xmldom.createTextNode(l_domdoc, r_plr.TEAMNAME))
           );
-        END IF;
+        /*END IF;*/
       END LOOP;
     END LOOP;
 
@@ -189,7 +188,7 @@ CREATE OR REPLACE PROCEDURE xml(nbaYear IN NUMBER) AS
 BEGIN
   year := 2009;
   num := 12;
-  xml(year);
+  xml(year,num);
 END;
 /
 

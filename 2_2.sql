@@ -11,19 +11,28 @@ CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
                       (SELECT XMLAGG(XMLELEMENT("division",
                                                 XMLATTRIBUTES (CONFERENCE AS "id"),
                                                 XMLAGG(XMLELEMENT("player",
-                                                                  XMLFOREST(PLAYERID AS "id",
-                                                                            YEAR AS "year",
-                                                                            CONFERENCE AS "conference",
-                                                                            POINTS AS "points",
-                                                                            MINUTES AS "minutes"
+                                                                  XMLFOREST(
+                                                                            allstr.PLAYERID AS "id",
+                                                                            pl.FIRSTNAME || ' ' ||
+                                                                            pl.LASTNAME AS
+                                                                            "name",
+                                                                            pl.POSITION AS "position",
+                                                                            allstr.POINTS AS "points",
+                                                                            allstr.MINUTES AS "minutes",
+                                                                            allstr.CONFERENCE AS "plDivision"),
+                                                                  XMLELEMENT("team",
+                                                                             XMLFOREST(t.TEAMID AS
+                                                                                       "teamId",
+                                                                                       t.TEAMNAME AS
+                                                                                       "teamName")
                                                                   ))
 
 
                                                 )
                                      ))
-                       FROM ALLSTARS
-                       WHERE YEAR = 2009 AND CONFERENCE IN ('East', 'West')
-                       GROUP BY CONFERENCE)
+                       FROM ALLSTARS allstr JOIN PLAYERS pl ON allstr.PLAYERID = pl.PLAYERID JOIN PLAYERS_TEAMS plt ON pl.PLAYERID = plt.PLAYERID JOIN TEAMS t ON plt.TEAMID = t.TEAMID AND plt.YEAR = t.YEAR
+                       WHERE allstr.YEAR = 2009 AND allstr.CONFERENCE IN ('East', 'West')
+                       GROUP BY allstr.CONFERENCE)
     )
     INTO result
     FROM dual;

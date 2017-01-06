@@ -19,6 +19,7 @@ CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
                                                                       pl.POSITION AS "position",
                                                                       allstr.POINTS AS "points",
                                                                       allstr.MINUTES AS "minutes",
+                                                                      allstr.YEAR AS "year",
                                                                       allstr.CONFERENCE AS "plDivision"),
                                                                   XMLELEMENT("team",
                                                                              XMLFOREST(t.TEAMID AS
@@ -30,9 +31,9 @@ CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
 
                                                 )
                                      ))
-                       FROM ALLSTARS allstr
-                         JOIN PLAYERS pl ON allstr.PLAYERID = pl.PLAYERID
+                       FROM PLAYERS pl
                          JOIN PLAYERS_TEAMS plt ON pl.PLAYERID = plt.PLAYERID
+                         JOIN ALLSTARS allstr ON plt.PLAYERID = allstr.PLAYERID AND plt.YEAR = allstr.YEAR
                          JOIN TEAMS t ON plt.TEAMID = t.TEAMID AND plt.YEAR = t.YEAR
                        WHERE allstr.YEAR = 2009 AND allstr.CONFERENCE IN ('East', 'West')
                        GROUP BY allstr.CONFERENCE)
@@ -53,3 +54,7 @@ END;
 
 SELECT *
 FROM TEMP_CLOB_TAB;
+
+SELECT *
+FROM ALLSTARS
+WHERE YEAR = 2009;

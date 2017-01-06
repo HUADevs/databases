@@ -6,7 +6,6 @@
 <!ATTLIST division id (East|West)>
 <!ELEMENT player (id,name,position,points,minutes,plDivision,team,index?)>
 <!ELEMENT id (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
 <!ELEMENT conference (#PCDATA)>
 <!ELEMENT points (#PCDATA)>
 <!ELEMENT minutes (#PCDATA)>

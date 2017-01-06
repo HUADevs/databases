@@ -19,7 +19,6 @@ CREATE OR REPLACE PROCEDURE get_allstar_players_xml AS
                                                                       pl.POSITION AS "position",
                                                                       allstr.POINTS AS "points",
                                                                       allstr.MINUTES AS "minutes",
-                                                                      allstr.YEAR AS "year",
                                                                       allstr.CONFERENCE AS "plDivision"),
                                                                   XMLELEMENT("team",
                                                                              XMLFOREST(t.TEAMID AS
@@ -54,7 +53,3 @@ END;
 
 SELECT *
 FROM TEMP_CLOB_TAB;
-
-SELECT *
-FROM ALLSTARS
-WHERE YEAR = 2009;

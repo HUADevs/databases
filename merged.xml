@@ -1,496 +1,3448 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE nba SYSTEM "ourdtd.dtd">
+<!DOCTYPE root SYSTEM "ourdtd.dtd">
 <root>
-<nba dataset="allstars">
-  <division id="East">
-    <player>
-      <id>leeda02</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>4</points>
-      <minutes>12</minutes>
-    </player>
-    <player>
-      <id>wallage01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>2</points>
-      <minutes>16</minutes>
-    </player>
-    <player>
-      <id>wadedw01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>28</points>
-      <minutes>31</minutes>
-    </player>
-    <player>
-      <id>rosede01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>8</points>
-      <minutes>15</minutes>
-    </player>
-    <player>
-      <id>rondora01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>4</points>
-      <minutes>20</minutes>
-    </player>
-    <player>
-      <id>johnsjo02</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>10</points>
-      <minutes>18</minutes>
-    </player>
-    <player>
-      <id>jamesle01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>25</points>
-      <minutes>32</minutes>
-    </player>
-    <player>
-      <id>howardw01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>17</points>
-      <minutes>27</minutes>
-    </player>
-    <player>
-      <id>horfoal01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>8</points>
-      <minutes>14</minutes>
-    </player>
-    <player>
-      <id>garneke01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>4</points>
-      <minutes>13</minutes>
-    </player>
-    <player>
-      <id>boshch01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>23</points>
-      <minutes>29</minutes>
-    </player>
-    <player>
-      <id>piercpa01</id>
-      <year>2009</year>
-      <conference>East</conference>
-      <points>8</points>
-      <minutes>11</minutes>
-    </player>
-  </division>
-  <division id="West">
-    <player>
-      <id>kamanch01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>4</points>
-      <minutes>11</minutes>
-    </player>
-    <player>
-      <id>willide01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>14</points>
-      <minutes>28</minutes>
-    </player>
-    <player>
-      <id>stoudam01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>12</points>
-      <minutes>20</minutes>
-    </player>
-    <player>
-      <id>gasolpa01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>13</points>
-      <minutes>20</minutes>
-    </player>
-    <player>
-      <id>duranke01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>15</points>
-      <minutes>20</minutes>
-    </player>
-    <player>
-      <id>duncati01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>3</points>
-      <minutes>13</minutes>
-    </player>
-    <player>
-      <id>billuch01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>17</points>
-      <minutes>26</minutes>
-    </player>
-    <player>
-      <id>anthoca01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>27</points>
-      <minutes>29</minutes>
-    </player>
-    <player>
-      <id>randoza01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>8</points>
-      <minutes>19</minutes>
-    </player>
-    <player>
-      <id>nowitdi01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>22</points>
-      <minutes>28</minutes>
-    </player>
-    <player>
-      <id>nashst01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>4</points>
-      <minutes>20</minutes>
-    </player>
-    <player>
-      <id>kiddja01</id>
-      <year>2009</year>
-      <conference>West</conference>
-      <points>0</points>
-      <minutes>6</minutes>
-    </player>
-  </division>
-</nba>
-<nba dataset="topplayers">
-  <division id="East">
-    <player>
-      <id>jamesle01</id>
-      <name>LeBron James</name>
-      <position>F</position>
-      <points>2258</points>
-      <minutes>2966</minutes>
-      <index>.821</index>
-      <division>East</division>
-      <team>
-        <teamId>CLE</teamId>
-        <name>Cleveland Cavaliers</name>
-      </team>
-    </player>
-    <player>
-      <id>davispa01</id>
-      <name>Paul Davis</name>
-      <position>C</position>
-      <points>5</points>
-      <minutes>8</minutes>
-      <index>.8125</index>
-      <division>East</division>
-      <team>
-        <teamId>WAS</teamId>
-        <name>Washington Wizards</name>
-      </team>
-    </player>
-    <player>
-      <id>howardw01</id>
-      <name>Dwight Howard</name>
-      <position>F</position>
-      <points>1503</points>
-      <minutes>2843</minutes>
-      <index>.6966</index>
-      <division>East</division>
-      <team>
-        <teamId>ORL</teamId>
-        <name>Orlando Magic</name>
-      </team>
-    </player>
-    <player>
-      <id>boshch01</id>
-      <name>Christopher Bosh</name>
-      <position>F</position>
-      <points>1678</points>
-      <minutes>2526</minutes>
-      <index>.6956</index>
-      <division>East</division>
-      <team>
-        <teamId>TOR</teamId>
-        <name>Toronto Raptors</name>
-      </team>
-    </player>
-    <player>
-      <id>wadedw01</id>
-      <name>Dwyane Wade</name>
-      <position>G</position>
-      <points>2045</points>
-      <minutes>2792</minutes>
-      <index>.6569</index>
-      <division>East</division>
-      <team>
-        <teamId>MIA</teamId>
-        <name>Miami Heat</name>
-      </team>
-    </player>
-    <player>
-      <id>leeda02</id>
-      <name>David Lee</name>
-      <position>F</position>
-      <points>1640</points>
-      <minutes>3019</minutes>
-      <index>.6492</index>
-      <division>East</division>
-      <team>
-        <teamId>NYK</teamId>
-        <name>New York Knicks</name>
-      </team>
-    </player>
-    <player>
-      <id>bogutan01</id>
-      <name>Andrew Bogut</name>
-      <position>C</position>
-      <points>1095</points>
-      <minutes>2229</minutes>
-      <index>.5846</index>
-      <division>East</division>
-      <team>
-        <teamId>MIL</teamId>
-        <name>Milwaukee Bucks</name>
-      </team>
-    </player>
-    <player>
-      <id>murphtr01</id>
-      <name>Troy Murphy</name>
-      <position>F</position>
-      <points>1050</points>
-      <minutes>2344</minutes>
-      <index>.5629</index>
-      <division>East</division>
-      <team>
-        <teamId>IND</teamId>
-        <name>Indiana Pacers</name>
-      </team>
-    </player>
-    <player>
-      <id>smithjo03</id>
-      <name>Joshua Smith</name>
-      <position>F</position>
-      <points>1269</points>
-      <minutes>2871</minutes>
-      <index>.5592</index>
-      <division>East</division>
-      <team>
-        <teamId>ATL</teamId>
-        <name>Atlanta Hawks</name>
-      </team>
-    </player>
-    <player>
-      <id>garneke01</id>
-      <name>Kevin Garnett</name>
-      <position>F</position>
-      <points>990</points>
-      <minutes>2060</minutes>
-      <index>.5568</index>
-      <division>East</division>
-      <team>
-        <teamId>BOS</teamId>
-        <name>Boston Celtics</name>
-      </team>
-    </player>
-    <player>
-      <id>noahjo01</id>
-      <name>Joakim Noah</name>
-      <position>F-C</position>
-      <points>687</points>
-      <minutes>1925</minutes>
-      <index>.5481</index>
-      <division>East</division>
-      <team>
-        <teamId>CHI</teamId>
-        <name>Chicago Bulls</name>
-      </team>
-    </player>
-    <player>
-      <id>horfoal01</id>
-      <name>Alfred Horford Reynoso</name>
-      <position>F-C</position>
-      <points>1148</points>
-      <minutes>2845</minutes>
-      <index>.538</index>
-      <division>East</division>
-      <team>
-        <teamId>ATL</teamId>
-        <name>Atlanta Hawks</name>
-      </team>
-    </player>
-    </division>
-    <division id="West">
-    <player>
-      <id>gildetr01</id>
-      <name>Trey Gilder</name>
-      <position>F</position>
-      <points>2</points>
-      <minutes>5</minutes>
-      <index>.8</index>
-      <division>West</division>
-      <team>
-        <teamId>MEM</teamId>
-        <name>Memphis Grizzlies</name>
-      </team>
-    </player>
-    <player>
-      <id>duncati01</id>
-      <name>Timothy Duncan</name>
-      <position>C-F</position>
-      <points>1395</points>
-      <minutes>2438</minutes>
-      <index>.7082</index>
-      <division>West</division>
-      <team>
-        <teamId>SAS</teamId>
-        <name>San Antonio Spurs</name>
-      </team>
-    </player>
-    <player>
-      <id>duranke01</id>
-      <name>Kevin Durant</name>
-      <position>F</position>
-      <points>2472</points>
-      <minutes>3239</minutes>
-      <index>.6681</index>
-      <division>West</division>
-      <team>
-        <teamId>OKC</teamId>
-        <name>Oklahoma City Thunder</name>
-      </team>
-    </player>
-    <player>
-      <id>boozeca01</id>
-      <name>Carlos Boozer</name>
-      <position>F-C</position>
-      <points>1519</points>
-      <minutes>2673</minutes>
-      <index>.6538</index>
-      <division>West</division>
-      <team>
-        <teamId>UTA</teamId>
-        <name>Utah Jazz</name>
-      </team>
-    </player>
-    <player>
-      <id>gasolpa01</id>
-      <name>Pau Gasol Saez</name>
-      <position>F</position>
-      <points>1190</points>
-      <minutes>2403</minutes>
-      <index>.6521</index>
-      <division>West</division>
-      <team>
-        <teamId>LAL</teamId>
-        <name>Los Angeles Lakers</name>
-      </team>
-    </player>
-    <player>
-      <id>bowenry01</id>
-      <name>Ryan Bowen</name>
-      <position>F</position>
-      <points>4</points>
-      <minutes>8</minutes>
-      <index>.625</index>
-      <division>West</division>
-      <team>
-        <teamId>OKC</teamId>
-        <name>Oklahoma City Thunder</name>
-      </team>
-    </player>
-    <player>
-      <id>loveke01</id>
-      <name>Kevin Love</name>
-      <position>F</position>
-      <points>842</points>
-      <minutes>1714</minutes>
-      <index>.6234</index>
-      <division>West</division>
-      <team>
-        <teamId>MIN</teamId>
-        <name>Minnesota Timberwolves</name>
-      </team>
-    </player>
-    <player>
-      <id>nashst01</id>
-      <name>Stephen Nash</name>
-      <position>G</position>
-      <points>1333</points>
-      <minutes>2660</minutes>
-      <index>.6207</index>
-      <division>West</division>
-      <team>
-        <teamId>PHO</teamId>
-        <name>Phoenix Suns</name>
-      </team>
-    </player>
-    <player>
-      <id>whitedj01</id>
-      <name>DeWayne White</name>
-      <position>F</position>
-      <points>59</points>
-      <minutes>102</minutes>
-      <index>.6127</index>
-      <division>West</division>
-      <team>
-        <teamId>OKC</teamId>
-        <name>Oklahoma City Thunder</name>
-      </team>
-    </player>
-    <player>
-      <id>paulch01</id>
-      <name>Christopher Paul</name>
-      <position>G</position>
-      <points>841</points>
-      <minutes>1712</minutes>
-      <index>.6124</index>
-      <division>West</division>
-      <team>
-        <teamId>NOH</teamId>
-        <name>New Orleans Hornets</name>
-      </team>
-    </player>
-    <player>
-      <id>nowitdi01</id>
-      <name>Dirk Nowitzki</name>
-      <position>C</position>
-      <points>2027</points>
-      <minutes>3039</minutes>
-      <index>.6107</index>
-      <division>West</division>
-      <team>
-        <teamId>DAL</teamId>
-        <name>Dallas Mavericks</name>
-      </team>
-    </player>
-    <player>
-      <id>stoudam01</id>
-      <name>Amar&apos;e Stoudemire</name>
-      <position>F-C</position>
-      <points>1896</points>
-      <minutes>2838</minutes>
-      <index>.6055</index>
-      <division>West</division>
-      <team>
-        <teamId>PHO</teamId>
-        <name>Phoenix Suns</name>
-      </team>
-    </player>
-    </division>
+    <nba dataset="allstars">
+        <division id="East">
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>GSW</teamId>
+                    <teamName>Golden State Warriors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rosede01</id>
+                <name>Derrick Rose</name>
+                <position>G</position>
+                <points>8</points>
+                <minutes>15</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHI</teamId>
+                    <teamName>Chicago Bulls</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>8</points>
+                <minutes>14</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>GSW</teamId>
+                    <teamName>Golden State Warriors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rosede01</id>
+                <name>Derrick Rose</name>
+                <position>G</position>
+                <points>8</points>
+                <minutes>15</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHI</teamId>
+                    <teamName>Chicago Bulls</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>8</points>
+                <minutes>14</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rosede01</id>
+                <name>Derrick Rose</name>
+                <position>G</position>
+                <points>8</points>
+                <minutes>15</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHI</teamId>
+                    <teamName>Chicago Bulls</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>8</points>
+                <minutes>14</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rosede01</id>
+                <name>Derrick Rose</name>
+                <position>G</position>
+                <points>8</points>
+                <minutes>15</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHI</teamId>
+                    <teamName>Chicago Bulls</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>8</points>
+                <minutes>14</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>8</points>
+                <minutes>14</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>rondora01</id>
+                <name>Rajon Rondo</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>12</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>17</points>
+                <minutes>27</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHA</teamId>
+                    <teamName>Charlotte Bobcats</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>23</points>
+                <minutes>29</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NOH</teamId>
+                    <teamName>New Orleans Hornets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>28</points>
+                <minutes>31</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>25</points>
+                <minutes>32</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NOH</teamId>
+                    <teamName>New Orleans Hornets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wallage01</id>
+                <name>Gerald Wallace</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>16</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHH</teamId>
+                    <teamName>Charlotte Hornets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>johnsjo02</id>
+                <name>Joe Johnson</name>
+                <position>G-F</position>
+                <points>10</points>
+                <minutes>18</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>piercpa01</id>
+                <name>Paul Pierce</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>11</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>13</minutes>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+        </division>
+        <division id="West">
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>15</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NOH</teamId>
+                    <teamName>New Orleans Hornets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>15</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>15</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>15</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>15</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SEA</teamId>
+                    <teamName>Seattle Supersonics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>willide01</id>
+                <name>Deron Williams</name>
+                <position>G</position>
+                <points>14</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kamanch01</id>
+                <name>Christopher Kaman</name>
+                <position>C</position>
+                <points>4</points>
+                <minutes>11</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAC</teamId>
+                    <teamName>Los Angeles Clippers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>12</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DET</teamId>
+                    <teamName>Detroit Pistons</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>randoza01</id>
+                <name>Zachary Randolph</name>
+                <position>F</position>
+                <points>8</points>
+                <minutes>19</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>POR</teamId>
+                    <teamName>Portland Trail Blazers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NJN</teamId>
+                    <teamName>New Jersey Nets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>13</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DEN</teamId>
+                    <teamName>Denver Nuggets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>22</points>
+                <minutes>28</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>3</points>
+                <minutes>13</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>billuch01</id>
+                <name>Chauncey Billups</name>
+                <position>G</position>
+                <points>17</points>
+                <minutes>26</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>4</points>
+                <minutes>20</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>kiddja01</id>
+                <name>Jason Kidd</name>
+                <position>G</position>
+                <points>0</points>
+                <minutes>6</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>anthoca01</id>
+                <name>Carmelo Anthony</name>
+                <position>F</position>
+                <points>27</points>
+                <minutes>29</minutes>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+        </division>
+    </nba>
+    <nba dataset="topplayers">
+        <division id="East">
+            <player>
+                <id>jamesle01</id>
+                <name>LeBron James</name>
+                <position>F</position>
+                <points>2258</points>
+                <minutes>2966</minutes>
+                <index>.821</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CLE</teamId>
+                    <teamName>Cleveland Cavaliers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>davispa01</id>
+                <name>Paul Davis</name>
+                <position>C</position>
+                <points>5</points>
+                <minutes>8</minutes>
+                <index>.8125</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>WAS</teamId>
+                    <teamName>Washington Wizards</teamName>
+                </team>
+            </player>
+            <player>
+                <id>howardw01</id>
+                <name>Dwight Howard</name>
+                <position>F</position>
+                <points>1503</points>
+                <minutes>2843</minutes>
+                <index>.6966</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ORL</teamId>
+                    <teamName>Orlando Magic</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boshch01</id>
+                <name>Christopher Bosh</name>
+                <position>F</position>
+                <points>1678</points>
+                <minutes>2526</minutes>
+                <index>.6956</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>TOR</teamId>
+                    <teamName>Toronto Raptors</teamName>
+                </team>
+            </player>
+            <player>
+                <id>wadedw01</id>
+                <name>Dwyane Wade</name>
+                <position>G</position>
+                <points>2045</points>
+                <minutes>2792</minutes>
+                <index>.6569</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIA</teamId>
+                    <teamName>Miami Heat</teamName>
+                </team>
+            </player>
+            <player>
+                <id>leeda02</id>
+                <name>David Lee</name>
+                <position>F</position>
+                <points>1640</points>
+                <minutes>3019</minutes>
+                <index>.6492</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>NYK</teamId>
+                    <teamName>New York Knicks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>bogutan01</id>
+                <name>Andrew Bogut</name>
+                <position>C</position>
+                <points>1095</points>
+                <minutes>2229</minutes>
+                <index>.5846</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>MIL</teamId>
+                    <teamName>Milwaukee Bucks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>murphtr01</id>
+                <name>Troy Murphy</name>
+                <position>F</position>
+                <points>1050</points>
+                <minutes>2344</minutes>
+                <index>.5629</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>IND</teamId>
+                    <teamName>Indiana Pacers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>smithjo03</id>
+                <name>Joshua Smith</name>
+                <position>F</position>
+                <points>1269</points>
+                <minutes>2871</minutes>
+                <index>.5592</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>garneke01</id>
+                <name>Kevin Garnett</name>
+                <position>F</position>
+                <points>990</points>
+                <minutes>2060</minutes>
+                <index>.5568</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>BOS</teamId>
+                    <teamName>Boston Celtics</teamName>
+                </team>
+            </player>
+            <player>
+                <id>noahjo01</id>
+                <name>Joakim Noah</name>
+                <position>F-C</position>
+                <points>687</points>
+                <minutes>1925</minutes>
+                <index>.5481</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>CHI</teamId>
+                    <teamName>Chicago Bulls</teamName>
+                </team>
+            </player>
+            <player>
+                <id>horfoal01</id>
+                <name>Alfred Horford Reynoso</name>
+                <position>F-C</position>
+                <points>1148</points>
+                <minutes>2845</minutes>
+                <index>.538</index>
+                <plDivision>East</plDivision>
+                <team>
+                    <teamId>ATL</teamId>
+                    <teamName>Atlanta Hawks</teamName>
+                </team>
+            </player>
+        </division>
+        <division id="West">
+            <player>
+                <id>gildetr01</id>
+                <name>Trey Gilder</name>
+                <position>F</position>
+                <points>2</points>
+                <minutes>5</minutes>
+                <index>.8</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MEM</teamId>
+                    <teamName>Memphis Grizzlies</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duncati01</id>
+                <name>Timothy Duncan</name>
+                <position>C-F</position>
+                <points>1395</points>
+                <minutes>2438</minutes>
+                <index>.7082</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>SAS</teamId>
+                    <teamName>San Antonio Spurs</teamName>
+                </team>
+            </player>
+            <player>
+                <id>duranke01</id>
+                <name>Kevin Durant</name>
+                <position>F</position>
+                <points>2472</points>
+                <minutes>3239</minutes>
+                <index>.6681</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>boozeca01</id>
+                <name>Carlos Boozer</name>
+                <position>F-C</position>
+                <points>1519</points>
+                <minutes>2673</minutes>
+                <index>.6538</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>UTA</teamId>
+                    <teamName>Utah Jazz</teamName>
+                </team>
+            </player>
+            <player>
+                <id>gasolpa01</id>
+                <name>Pau Gasol Saez</name>
+                <position>F</position>
+                <points>1190</points>
+                <minutes>2403</minutes>
+                <index>.6521</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>LAL</teamId>
+                    <teamName>Los Angeles Lakers</teamName>
+                </team>
+            </player>
+            <player>
+                <id>bowenry01</id>
+                <name>Ryan Bowen</name>
+                <position>F</position>
+                <points>4</points>
+                <minutes>8</minutes>
+                <index>.625</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>loveke01</id>
+                <name>Kevin Love</name>
+                <position>F</position>
+                <points>842</points>
+                <minutes>1714</minutes>
+                <index>.6234</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>MIN</teamId>
+                    <teamName>Minnesota Timberwolves</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nashst01</id>
+                <name>Stephen Nash</name>
+                <position>G</position>
+                <points>1333</points>
+                <minutes>2660</minutes>
+                <index>.6207</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+            <player>
+                <id>whitedj01</id>
+                <name>DeWayne White</name>
+                <position>F</position>
+                <points>59</points>
+                <minutes>102</minutes>
+                <index>.6127</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>OKC</teamId>
+                    <teamName>Oklahoma City Thunder</teamName>
+                </team>
+            </player>
+            <player>
+                <id>paulch01</id>
+                <name>Christopher Paul</name>
+                <position>G</position>
+                <points>841</points>
+                <minutes>1712</minutes>
+                <index>.6124</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>NOH</teamId>
+                    <teamName>New Orleans Hornets</teamName>
+                </team>
+            </player>
+            <player>
+                <id>nowitdi01</id>
+                <name>Dirk Nowitzki</name>
+                <position>C</position>
+                <points>2027</points>
+                <minutes>3039</minutes>
+                <index>.6107</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>DAL</teamId>
+                    <teamName>Dallas Mavericks</teamName>
+                </team>
+            </player>
+            <player>
+                <id>stoudam01</id>
+                <name>Amar&apos;e Stoudemire</name>
+                <position>F-C</position>
+                <points>1896</points>
+                <minutes>2838</minutes>
+                <index>.6055</index>
+                <plDivision>West</plDivision>
+                <team>
+                    <teamId>PHO</teamId>
+                    <teamName>Phoenix Suns</teamName>
+                </team>
+            </player>
+        </division>
     </nba>
 </root>

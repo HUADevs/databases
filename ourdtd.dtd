@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (nba+)>
 <!ELEMENT nba (division*)>
 <!ATTLIST nba dataset (allstars|topplayers)>
 <!ELEMENT division (player*)>
 <!ATTLIST division id (East|West)>
-<!ELEMENT player (id,year?,division,points,minutes,name,position,team,index?)>
+<!ELEMENT player (id,name,position,points,minutes,plDivision,team,index?)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT conference (#PCDATA)>
 <!ELEMENT points (#PCDATA)>
 <!ELEMENT minutes (#PCDATA)>
-<!ELEMENT division (#PCDATA)>
+<!ELEMENT plDivision (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT position (#PCDATA)>
 <!ELEMENT index (#PCDATA)>
-<!ELEMENT team (teamId,name)>
+<!ELEMENT team (teamId,teamName)>
 <!ELEMENT teamId (#PCDATA)>
+<!ELEMENT teamName (#PCDATA)>
